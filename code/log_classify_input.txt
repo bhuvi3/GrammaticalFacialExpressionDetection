@@ -1,0 +1,1225 @@
+PS C:\Users\Bhuvan\projects\HCI\code> ipython .\classify_input_data.py
+DEBUG:weka.core.jvm:Adding bundled jars
+DEBUG:weka.core.jvm:Classpath=['C:\\Anaconda\\lib\\site-packages\\javabridge\\jars\\rhino-1.7R4.jar', 'C:\\Anaconda\\lib
+\\site-packages\\javabridge\\jars\\runnablequeue.jar', 'C:\\Anaconda\\lib\\site-packages\\javabridge\\jars\\cpython.jar'
+, 'C:\\Anaconda\\lib\\site-packages\\python_weka_wrapper-0.2.2-py2.7.egg\\weka\\lib\\python-weka-wrapper.jar', 'C:\\Anac
+onda\\lib\\site-packages\\python_weka_wrapper-0.2.2-py2.7.egg\\weka\\lib\\weka.jar']
+DEBUG:weka.core.jvm:MaxHeapSize=default
+DEBUG:javabridge.jutil:Creating JVM object
+DEBUG:javabridge.jutil:Signalling caller
+
+0 => affirmative : a_affirmative_validate.arff
+../data/arff_files/dep_a/validate/a_affirmative_validate.arff => ../models/affirmative/dep_a/ all algos => ../results/af
+firmative/dep_a/
+
+Algorithm: MLP_CLASSIFIER_10
+../models/affirmative/dep_a/MLP_Classifier_10.model
+<Java object at 0x12a12528>
+1: Validate Scores Saved =>../results/affirmative/dep_a/MLP_Classifier_10_scores.csv
+Algorithm: BAGGING
+../models/affirmative/dep_a/Bagging.model
+<Java object at 0x14c73da0>
+2: Validate Scores Saved =>../results/affirmative/dep_a/Bagging_scores.csv
+Algorithm: BAYES_NETWORK
+../models/affirmative/dep_a/Bayes_Network.model
+<Java object at 0x14c73e20>
+3: Validate Scores Saved =>../results/affirmative/dep_a/Bayes_Network_scores.csv
+Algorithm: RBF_CLASSIFIER
+../models/affirmative/dep_a/RBF_Classifier.model
+<Java object at 0x12a0ad68>
+4: Validate Scores Saved =>../results/affirmative/dep_a/RBF_Classifier_scores.csv
+Algorithm: ADABOOST
+../models/affirmative/dep_a/Adaboost.model
+<Java object at 0x12a12598>
+5: Validate Scores Saved =>../results/affirmative/dep_a/Adaboost_scores.csv
+Algorithm: RANDOM_FOREST
+../models/affirmative/dep_a/Random_Forest.model
+<Java object at 0x12a12a70>
+6: Validate Scores Saved =>../results/affirmative/dep_a/Random_Forest_scores.csv
+Algorithm: MLP_CLASSIFIER_2
+../models/affirmative/dep_a/MLP_Classifier_2.model
+<Java object at 0x14c73e10>
+7: Validate Scores Saved =>../results/affirmative/dep_a/MLP_Classifier_2_scores.csv
+Algorithm: REP_TREE
+../models/affirmative/dep_a/REP_Tree.model
+<Java object at 0x12a0adb0>
+8: Validate Scores Saved =>../results/affirmative/dep_a/REP_Tree_scores.csv
+Algorithm: LOGIT_BOOST
+../models/affirmative/dep_a/Logit_Boost.model
+<Java object at 0x12a12a00>
+9: Validate Scores Saved =>../results/affirmative/dep_a/Logit_Boost_scores.csv
+Algorithm: FLDA
+../models/affirmative/dep_a/FLDA.model
+<Java object at 0x14c73db0>
+10: Validate Scores Saved =>../results/affirmative/dep_a/FLDA_scores.csv
+
+1 => conditional : a_conditional_validate.arff
+../data/arff_files/dep_a/validate/a_conditional_validate.arff => ../models/conditional/dep_a/ all algos => ../results/co
+nditional/dep_a/
+
+Algorithm: MLP_CLASSIFIER_10
+../models/conditional/dep_a/MLP_Classifier_10.model
+<Java object at 0x14c73e10>
+11: Validate Scores Saved =>../results/conditional/dep_a/MLP_Classifier_10_scores.csv
+Algorithm: BAGGING
+../models/conditional/dep_a/Bagging.model
+<Java object at 0x12a0ad90>
+12: Validate Scores Saved =>../results/conditional/dep_a/Bagging_scores.csv
+Algorithm: BAYES_NETWORK
+../models/conditional/dep_a/Bayes_Network.model
+<Java object at 0x12a12a48>
+13: Validate Scores Saved =>../results/conditional/dep_a/Bayes_Network_scores.csv
+Algorithm: RBF_CLASSIFIER
+../models/conditional/dep_a/RBF_Classifier.model
+<Java object at 0x12a0acf0>
+14: Validate Scores Saved =>../results/conditional/dep_a/RBF_Classifier_scores.csv
+Algorithm: ADABOOST
+../models/conditional/dep_a/Adaboost.model
+<Java object at 0x12a125d8>
+15: Validate Scores Saved =>../results/conditional/dep_a/Adaboost_scores.csv
+Algorithm: RANDOM_FOREST
+../models/conditional/dep_a/Random_Forest.model
+<Java object at 0x14c73dd8>
+16: Validate Scores Saved =>../results/conditional/dep_a/Random_Forest_scores.csv
+Algorithm: MLP_CLASSIFIER_2
+../models/conditional/dep_a/MLP_Classifier_2.model
+<Java object at 0x12a12518>
+17: Validate Scores Saved =>../results/conditional/dep_a/MLP_Classifier_2_scores.csv
+Algorithm: REP_TREE
+../models/conditional/dep_a/REP_Tree.model
+<Java object at 0x12a12ad0>
+18: Validate Scores Saved =>../results/conditional/dep_a/REP_Tree_scores.csv
+Algorithm: LOGIT_BOOST
+../models/conditional/dep_a/Logit_Boost.model
+<Java object at 0x12a0ada0>
+19: Validate Scores Saved =>../results/conditional/dep_a/Logit_Boost_scores.csv
+Algorithm: FLDA
+../models/conditional/dep_a/FLDA.model
+<Java object at 0x12a12a48>
+20: Validate Scores Saved =>../results/conditional/dep_a/FLDA_scores.csv
+
+2 => doubt_question : a_doubt_question_validate.arff
+../data/arff_files/dep_a/validate/a_doubt_question_validate.arff => ../models/doubt_question/dep_a/ all algos => ../resu
+lts/doubt_question/dep_a/
+
+Algorithm: MLP_CLASSIFIER_10
+../models/doubt_question/dep_a/MLP_Classifier_10.model
+<Java object at 0x14c73e78>
+21: Validate Scores Saved =>../results/doubt_question/dep_a/MLP_Classifier_10_scores.csv
+Algorithm: BAGGING
+../models/doubt_question/dep_a/Bagging.model
+<Java object at 0x12a124f8>
+22: Validate Scores Saved =>../results/doubt_question/dep_a/Bagging_scores.csv
+Algorithm: BAYES_NETWORK
+../models/doubt_question/dep_a/Bayes_Network.model
+<Java object at 0x12a129f8>
+23: Validate Scores Saved =>../results/doubt_question/dep_a/Bayes_Network_scores.csv
+Algorithm: RBF_CLASSIFIER
+../models/doubt_question/dep_a/RBF_Classifier.model
+<Java object at 0x14c73db0>
+24: Validate Scores Saved =>../results/doubt_question/dep_a/RBF_Classifier_scores.csv
+Algorithm: ADABOOST
+../models/doubt_question/dep_a/Adaboost.model
+<Java object at 0x12a0ad30>
+25: Validate Scores Saved =>../results/doubt_question/dep_a/Adaboost_scores.csv
+Algorithm: RANDOM_FOREST
+../models/doubt_question/dep_a/Random_Forest.model
+<Java object at 0x12a12558>
+26: Validate Scores Saved =>../results/doubt_question/dep_a/Random_Forest_scores.csv
+Algorithm: MLP_CLASSIFIER_2
+../models/doubt_question/dep_a/MLP_Classifier_2.model
+<Java object at 0x12a12a70>
+27: Validate Scores Saved =>../results/doubt_question/dep_a/MLP_Classifier_2_scores.csv
+Algorithm: REP_TREE
+../models/doubt_question/dep_a/REP_Tree.model
+<Java object at 0x14c73e20>
+28: Validate Scores Saved =>../results/doubt_question/dep_a/REP_Tree_scores.csv
+Algorithm: LOGIT_BOOST
+../models/doubt_question/dep_a/Logit_Boost.model
+<Java object at 0x12a0adb0>
+29: Validate Scores Saved =>../results/doubt_question/dep_a/Logit_Boost_scores.csv
+Algorithm: FLDA
+../models/doubt_question/dep_a/FLDA.model
+<Java object at 0x12a125d0>
+30: Validate Scores Saved =>../results/doubt_question/dep_a/FLDA_scores.csv
+
+3 => emphasis : a_emphasis_validate.arff
+../data/arff_files/dep_a/validate/a_emphasis_validate.arff => ../models/emphasis/dep_a/ all algos => ../results/emphasis
+/dep_a/
+
+Algorithm: MLP_CLASSIFIER_10
+../models/emphasis/dep_a/MLP_Classifier_10.model
+<Java object at 0x12a12ab0>
+31: Validate Scores Saved =>../results/emphasis/dep_a/MLP_Classifier_10_scores.csv
+Algorithm: BAGGING
+../models/emphasis/dep_a/Bagging.model
+<Java object at 0x12a0ade0>
+32: Validate Scores Saved =>../results/emphasis/dep_a/Bagging_scores.csv
+Algorithm: BAYES_NETWORK
+../models/emphasis/dep_a/Bayes_Network.model
+<Java object at 0x14c73db0>
+33: Validate Scores Saved =>../results/emphasis/dep_a/Bayes_Network_scores.csv
+Algorithm: RBF_CLASSIFIER
+../models/emphasis/dep_a/RBF_Classifier.model
+<Java object at 0x12a12548>
+34: Validate Scores Saved =>../results/emphasis/dep_a/RBF_Classifier_scores.csv
+Algorithm: ADABOOST
+../models/emphasis/dep_a/Adaboost.model
+<Java object at 0x14c73e30>
+35: Validate Scores Saved =>../results/emphasis/dep_a/Adaboost_scores.csv
+Algorithm: RANDOM_FOREST
+../models/emphasis/dep_a/Random_Forest.model
+<Java object at 0x12a125a8>
+36: Validate Scores Saved =>../results/emphasis/dep_a/Random_Forest_scores.csv
+Algorithm: MLP_CLASSIFIER_2
+../models/emphasis/dep_a/MLP_Classifier_2.model
+<Java object at 0x12a11e58>
+37: Validate Scores Saved =>../results/emphasis/dep_a/MLP_Classifier_2_scores.csv
+Algorithm: REP_TREE
+../models/emphasis/dep_a/REP_Tree.model
+<Java object at 0x12a12a30>
+38: Validate Scores Saved =>../results/emphasis/dep_a/REP_Tree_scores.csv
+Algorithm: LOGIT_BOOST
+../models/emphasis/dep_a/Logit_Boost.model
+<Java object at 0x12a0ad78>
+39: Validate Scores Saved =>../results/emphasis/dep_a/Logit_Boost_scores.csv
+Algorithm: FLDA
+../models/emphasis/dep_a/FLDA.model
+<Java object at 0x12a12ab0>
+40: Validate Scores Saved =>../results/emphasis/dep_a/FLDA_scores.csv
+
+4 => negative : a_negative_validate.arff
+../data/arff_files/dep_a/validate/a_negative_validate.arff => ../models/negative/dep_a/ all algos => ../results/negative
+/dep_a/
+
+Algorithm: MLP_CLASSIFIER_10
+../models/negative/dep_a/MLP_Classifier_10.model
+<Java object at 0x12a0add8>
+41: Validate Scores Saved =>../results/negative/dep_a/MLP_Classifier_10_scores.csv
+Algorithm: BAGGING
+../models/negative/dep_a/Bagging.model
+<Java object at 0x12a0ad00>
+42: Validate Scores Saved =>../results/negative/dep_a/Bagging_scores.csv
+Algorithm: BAYES_NETWORK
+../models/negative/dep_a/Bayes_Network.model
+<Java object at 0x14c73df8>
+43: Validate Scores Saved =>../results/negative/dep_a/Bayes_Network_scores.csv
+Algorithm: RBF_CLASSIFIER
+../models/negative/dep_a/RBF_Classifier.model
+<Java object at 0x12a12a98>
+44: Validate Scores Saved =>../results/negative/dep_a/RBF_Classifier_scores.csv
+Algorithm: ADABOOST
+../models/negative/dep_a/Adaboost.model
+<Java object at 0x12a125c8>
+45: Validate Scores Saved =>../results/negative/dep_a/Adaboost_scores.csv
+Algorithm: RANDOM_FOREST
+../models/negative/dep_a/Random_Forest.model
+<Java object at 0x12a12500>
+46: Validate Scores Saved =>../results/negative/dep_a/Random_Forest_scores.csv
+Algorithm: MLP_CLASSIFIER_2
+../models/negative/dep_a/MLP_Classifier_2.model
+<Java object at 0x12a0ad38>
+47: Validate Scores Saved =>../results/negative/dep_a/MLP_Classifier_2_scores.csv
+Algorithm: REP_TREE
+../models/negative/dep_a/REP_Tree.model
+<Java object at 0x14c73e00>
+48: Validate Scores Saved =>../results/negative/dep_a/REP_Tree_scores.csv
+Algorithm: LOGIT_BOOST
+../models/negative/dep_a/Logit_Boost.model
+<Java object at 0x12a12aa8>
+49: Validate Scores Saved =>../results/negative/dep_a/Logit_Boost_scores.csv
+Algorithm: FLDA
+../models/negative/dep_a/FLDA.model
+<Java object at 0x12a129f0>
+50: Validate Scores Saved =>../results/negative/dep_a/FLDA_scores.csv
+
+5 => relative : a_relative_validate.arff
+../data/arff_files/dep_a/validate/a_relative_validate.arff => ../models/relative/dep_a/ all algos => ../results/relative
+/dep_a/
+
+Algorithm: MLP_CLASSIFIER_10
+../models/relative/dep_a/MLP_Classifier_10.model
+<Java object at 0x12a124f8>
+51: Validate Scores Saved =>../results/relative/dep_a/MLP_Classifier_10_scores.csv
+Algorithm: BAGGING
+../models/relative/dep_a/Bagging.model
+<Java object at 0x12a0ade8>
+52: Validate Scores Saved =>../results/relative/dep_a/Bagging_scores.csv
+Algorithm: BAYES_NETWORK
+../models/relative/dep_a/Bayes_Network.model
+<Java object at 0x12a124f0>
+53: Validate Scores Saved =>../results/relative/dep_a/Bayes_Network_scores.csv
+Algorithm: RBF_CLASSIFIER
+../models/relative/dep_a/RBF_Classifier.model
+<Java object at 0x12a0ade8>
+54: Validate Scores Saved =>../results/relative/dep_a/RBF_Classifier_scores.csv
+Algorithm: ADABOOST
+../models/relative/dep_a/Adaboost.model
+<Java object at 0x12a0ade0>
+55: Validate Scores Saved =>../results/relative/dep_a/Adaboost_scores.csv
+Algorithm: RANDOM_FOREST
+../models/relative/dep_a/Random_Forest.model
+<Java object at 0x12a0ade8>
+56: Validate Scores Saved =>../results/relative/dep_a/Random_Forest_scores.csv
+Algorithm: MLP_CLASSIFIER_2
+../models/relative/dep_a/MLP_Classifier_2.model
+<Java object at 0x12a0ade0>
+57: Validate Scores Saved =>../results/relative/dep_a/MLP_Classifier_2_scores.csv
+Algorithm: REP_TREE
+../models/relative/dep_a/REP_Tree.model
+<Java object at 0x12a0ade8>
+58: Validate Scores Saved =>../results/relative/dep_a/REP_Tree_scores.csv
+Algorithm: LOGIT_BOOST
+../models/relative/dep_a/Logit_Boost.model
+<Java object at 0x12a0add8>
+59: Validate Scores Saved =>../results/relative/dep_a/Logit_Boost_scores.csv
+Algorithm: FLDA
+../models/relative/dep_a/FLDA.model
+<Java object at 0x12a0ade0>
+60: Validate Scores Saved =>../results/relative/dep_a/FLDA_scores.csv
+
+6 => topics : a_topics_validate.arff
+../data/arff_files/dep_a/validate/a_topics_validate.arff => ../models/topics/dep_a/ all algos => ../results/topics/dep_a
+/
+
+Algorithm: MLP_CLASSIFIER_10
+../models/topics/dep_a/MLP_Classifier_10.model
+<Java object at 0x12a0adb0>
+61: Validate Scores Saved =>../results/topics/dep_a/MLP_Classifier_10_scores.csv
+Algorithm: BAGGING
+../models/topics/dep_a/Bagging.model
+<Java object at 0x12a12a10>
+62: Validate Scores Saved =>../results/topics/dep_a/Bagging_scores.csv
+Algorithm: BAYES_NETWORK
+../models/topics/dep_a/Bayes_Network.model
+<Java object at 0x14c73df8>
+63: Validate Scores Saved =>../results/topics/dep_a/Bayes_Network_scores.csv
+Algorithm: RBF_CLASSIFIER
+../models/topics/dep_a/RBF_Classifier.model
+<Java object at 0x12a0adb8>
+64: Validate Scores Saved =>../results/topics/dep_a/RBF_Classifier_scores.csv
+Algorithm: ADABOOST
+../models/topics/dep_a/Adaboost.model
+<Java object at 0x12a12a18>
+65: Validate Scores Saved =>../results/topics/dep_a/Adaboost_scores.csv
+Algorithm: RANDOM_FOREST
+../models/topics/dep_a/Random_Forest.model
+<Java object at 0x14c73e00>
+66: Validate Scores Saved =>../results/topics/dep_a/Random_Forest_scores.csv
+Algorithm: MLP_CLASSIFIER_2
+../models/topics/dep_a/MLP_Classifier_2.model
+<Java object at 0x12a0adb8>
+67: Validate Scores Saved =>../results/topics/dep_a/MLP_Classifier_2_scores.csv
+Algorithm: REP_TREE
+../models/topics/dep_a/REP_Tree.model
+<Java object at 0x12a12a18>
+68: Validate Scores Saved =>../results/topics/dep_a/REP_Tree_scores.csv
+Algorithm: LOGIT_BOOST
+../models/topics/dep_a/Logit_Boost.model
+<Java object at 0x14c73e00>
+69: Validate Scores Saved =>../results/topics/dep_a/Logit_Boost_scores.csv
+Algorithm: FLDA
+../models/topics/dep_a/FLDA.model
+<Java object at 0x12a0adc0>
+70: Validate Scores Saved =>../results/topics/dep_a/FLDA_scores.csv
+
+7 => wh_question : a_wh_question_validate.arff
+../data/arff_files/dep_a/validate/a_wh_question_validate.arff => ../models/wh_question/dep_a/ all algos => ../results/wh
+_question/dep_a/
+
+Algorithm: MLP_CLASSIFIER_10
+../models/wh_question/dep_a/MLP_Classifier_10.model
+<Java object at 0x12a125e8>
+71: Validate Scores Saved =>../results/wh_question/dep_a/MLP_Classifier_10_scores.csv
+Algorithm: BAGGING
+../models/wh_question/dep_a/Bagging.model
+<Java object at 0x14c73e80>
+72: Validate Scores Saved =>../results/wh_question/dep_a/Bagging_scores.csv
+Algorithm: BAYES_NETWORK
+../models/wh_question/dep_a/Bayes_Network.model
+<Java object at 0x12a129f8>
+73: Validate Scores Saved =>../results/wh_question/dep_a/Bayes_Network_scores.csv
+Algorithm: RBF_CLASSIFIER
+../models/wh_question/dep_a/RBF_Classifier.model
+<Java object at 0x12a0acf8>
+74: Validate Scores Saved =>../results/wh_question/dep_a/RBF_Classifier_scores.csv
+Algorithm: ADABOOST
+../models/wh_question/dep_a/Adaboost.model
+<Java object at 0x12a12a18>
+75: Validate Scores Saved =>../results/wh_question/dep_a/Adaboost_scores.csv
+Algorithm: RANDOM_FOREST
+../models/wh_question/dep_a/Random_Forest.model
+<Java object at 0x12a0ad08>
+76: Validate Scores Saved =>../results/wh_question/dep_a/Random_Forest_scores.csv
+Algorithm: MLP_CLASSIFIER_2
+../models/wh_question/dep_a/MLP_Classifier_2.model
+<Java object at 0x12a12a38>
+77: Validate Scores Saved =>../results/wh_question/dep_a/MLP_Classifier_2_scores.csv
+Algorithm: REP_TREE
+../models/wh_question/dep_a/REP_Tree.model
+<Java object at 0x12a0ad38>
+78: Validate Scores Saved =>../results/wh_question/dep_a/REP_Tree_scores.csv
+Algorithm: LOGIT_BOOST
+../models/wh_question/dep_a/Logit_Boost.model
+<Java object at 0x12a12a40>
+79: Validate Scores Saved =>../results/wh_question/dep_a/Logit_Boost_scores.csv
+Algorithm: FLDA
+../models/wh_question/dep_a/FLDA.model
+<Java object at 0x12a0ad40>
+80: Validate Scores Saved =>../results/wh_question/dep_a/FLDA_scores.csv
+
+8 => yn_question : a_yn_question_validate.arff
+../data/arff_files/dep_a/validate/a_yn_question_validate.arff => ../models/yn_question/dep_a/ all algos => ../results/yn
+_question/dep_a/
+
+Algorithm: MLP_CLASSIFIER_10
+../models/yn_question/dep_a/MLP_Classifier_10.model
+<Java object at 0x12a12a30>
+81: Validate Scores Saved =>../results/yn_question/dep_a/MLP_Classifier_10_scores.csv
+Algorithm: BAGGING
+../models/yn_question/dep_a/Bagging.model
+<Java object at 0x12a0adc8>
+82: Validate Scores Saved =>../results/yn_question/dep_a/Bagging_scores.csv
+Algorithm: BAYES_NETWORK
+../models/yn_question/dep_a/Bayes_Network.model
+<Java object at 0x14c73e08>
+83: Validate Scores Saved =>../results/yn_question/dep_a/Bayes_Network_scores.csv
+Algorithm: RBF_CLASSIFIER
+../models/yn_question/dep_a/RBF_Classifier.model
+<Java object at 0x12a125e8>
+84: Validate Scores Saved =>../results/yn_question/dep_a/RBF_Classifier_scores.csv
+Algorithm: ADABOOST
+../models/yn_question/dep_a/Adaboost.model
+<Java object at 0x12a0ada0>
+85: Validate Scores Saved =>../results/yn_question/dep_a/Adaboost_scores.csv
+Algorithm: RANDOM_FOREST
+../models/yn_question/dep_a/Random_Forest.model
+<Java object at 0x14c73de0>
+86: Validate Scores Saved =>../results/yn_question/dep_a/Random_Forest_scores.csv
+Algorithm: MLP_CLASSIFIER_2
+../models/yn_question/dep_a/MLP_Classifier_2.model
+<Java object at 0x12a125e0>
+87: Validate Scores Saved =>../results/yn_question/dep_a/MLP_Classifier_2_scores.csv
+Algorithm: REP_TREE
+../models/yn_question/dep_a/REP_Tree.model
+<Java object at 0x12a0ad98>
+88: Validate Scores Saved =>../results/yn_question/dep_a/REP_Tree_scores.csv
+Algorithm: LOGIT_BOOST
+../models/yn_question/dep_a/Logit_Boost.model
+<Java object at 0x14c73dd8>
+89: Validate Scores Saved =>../results/yn_question/dep_a/Logit_Boost_scores.csv
+Algorithm: FLDA
+../models/yn_question/dep_a/FLDA.model
+<Java object at 0x12a125d8>
+90: Validate Scores Saved =>../results/yn_question/dep_a/FLDA_scores.csv
+
+0 => affirmative : b_affirmative_validate.arff
+../data/arff_files/dep_b/validate/b_affirmative_validate.arff => ../models/affirmative/dep_b/ all algos => ../results/af
+firmative/dep_b/
+
+Algorithm: MLP_CLASSIFIER_10
+../models/affirmative/dep_b/MLP_Classifier_10.model
+<Java object at 0x12a0ad58>
+1: Validate Scores Saved =>../results/affirmative/dep_b/MLP_Classifier_10_scores.csv
+Algorithm: BAGGING
+../models/affirmative/dep_b/Bagging.model
+<Java object at 0x12a12560>
+2: Validate Scores Saved =>../results/affirmative/dep_b/Bagging_scores.csv
+Algorithm: BAYES_NETWORK
+../models/affirmative/dep_b/Bayes_Network.model
+<Java object at 0x12a12a48>
+3: Validate Scores Saved =>../results/affirmative/dep_b/Bayes_Network_scores.csv
+Algorithm: RBF_CLASSIFIER
+../models/affirmative/dep_b/RBF_Classifier.model
+<Java object at 0x14c73dd0>
+4: Validate Scores Saved =>../results/affirmative/dep_b/RBF_Classifier_scores.csv
+Algorithm: ADABOOST
+../models/affirmative/dep_b/Adaboost.model
+<Java object at 0x12a0ad08>
+5: Validate Scores Saved =>../results/affirmative/dep_b/Adaboost_scores.csv
+Algorithm: RANDOM_FOREST
+../models/affirmative/dep_b/Random_Forest.model
+<Java object at 0x12a12530>
+6: Validate Scores Saved =>../results/affirmative/dep_b/Random_Forest_scores.csv
+Algorithm: MLP_CLASSIFIER_2
+../models/affirmative/dep_b/MLP_Classifier_2.model
+<Java object at 0x12a12a18>
+7: Validate Scores Saved =>../results/affirmative/dep_b/MLP_Classifier_2_scores.csv
+Algorithm: REP_TREE
+../models/affirmative/dep_b/REP_Tree.model
+<Java object at 0x14c73da0>
+8: Validate Scores Saved =>../results/affirmative/dep_b/REP_Tree_scores.csv
+Algorithm: LOGIT_BOOST
+../models/affirmative/dep_b/Logit_Boost.model
+<Java object at 0x12a11e58>
+9: Validate Scores Saved =>../results/affirmative/dep_b/Logit_Boost_scores.csv
+Algorithm: FLDA
+../models/affirmative/dep_b/FLDA.model
+<Java object at 0x12a12500>
+10: Validate Scores Saved =>../results/affirmative/dep_b/FLDA_scores.csv
+
+1 => conditional : b_conditional_validate.arff
+../data/arff_files/dep_b/validate/b_conditional_validate.arff => ../models/conditional/dep_b/ all algos => ../results/co
+nditional/dep_b/
+
+Algorithm: MLP_CLASSIFIER_10
+../models/conditional/dep_b/MLP_Classifier_10.model
+<Java object at 0x12a125b0>
+11: Validate Scores Saved =>../results/conditional/dep_b/MLP_Classifier_10_scores.csv
+Algorithm: BAGGING
+../models/conditional/dep_b/Bagging.model
+<Java object at 0x14c73de0>
+12: Validate Scores Saved =>../results/conditional/dep_b/Bagging_scores.csv
+Algorithm: BAYES_NETWORK
+../models/conditional/dep_b/Bayes_Network.model
+<Java object at 0x12a0ade8>
+13: Validate Scores Saved =>../results/conditional/dep_b/Bayes_Network_scores.csv
+Algorithm: RBF_CLASSIFIER
+../models/conditional/dep_b/RBF_Classifier.model
+<Java object at 0x12a12a98>
+14: Validate Scores Saved =>../results/conditional/dep_b/RBF_Classifier_scores.csv
+Algorithm: ADABOOST
+../models/conditional/dep_b/Adaboost.model
+<Java object at 0x12a0ad38>
+15: Validate Scores Saved =>../results/conditional/dep_b/Adaboost_scores.csv
+Algorithm: RANDOM_FOREST
+../models/conditional/dep_b/Random_Forest.model
+<Java object at 0x12a125e8>
+16: Validate Scores Saved =>../results/conditional/dep_b/Random_Forest_scores.csv
+Algorithm: MLP_CLASSIFIER_2
+../models/conditional/dep_b/MLP_Classifier_2.model
+<Java object at 0x14c73e20>
+17: Validate Scores Saved =>../results/conditional/dep_b/MLP_Classifier_2_scores.csv
+Algorithm: REP_TREE
+../models/conditional/dep_b/REP_Tree.model
+<Java object at 0x12a12520>
+18: Validate Scores Saved =>../results/conditional/dep_b/REP_Tree_scores.csv
+Algorithm: LOGIT_BOOST
+../models/conditional/dep_b/Logit_Boost.model
+<Java object at 0x12a12ab8>
+19: Validate Scores Saved =>../results/conditional/dep_b/Logit_Boost_scores.csv
+Algorithm: FLDA
+../models/conditional/dep_b/FLDA.model
+<Java object at 0x12a0ad58>
+20: Validate Scores Saved =>../results/conditional/dep_b/FLDA_scores.csv
+
+2 => doubt_question : b_doubt_question_validate.arff
+../data/arff_files/dep_b/validate/b_doubt_question_validate.arff => ../models/doubt_question/dep_b/ all algos => ../resu
+lts/doubt_question/dep_b/
+
+Algorithm: MLP_CLASSIFIER_10
+../models/doubt_question/dep_b/MLP_Classifier_10.model
+<Java object at 0x12a125c0>
+21: Validate Scores Saved =>../results/doubt_question/dep_b/MLP_Classifier_10_scores.csv
+Algorithm: BAGGING
+../models/doubt_question/dep_b/Bagging.model
+<Java object at 0x12a0add0>
+22: Validate Scores Saved =>../results/doubt_question/dep_b/Bagging_scores.csv
+Algorithm: BAYES_NETWORK
+../models/doubt_question/dep_b/Bayes_Network.model
+<Java object at 0x14c73e88>
+23: Validate Scores Saved =>../results/doubt_question/dep_b/Bayes_Network_scores.csv
+Algorithm: RBF_CLASSIFIER
+../models/doubt_question/dep_b/RBF_Classifier.model
+<Java object at 0x14c73db0>
+24: Validate Scores Saved =>../results/doubt_question/dep_b/RBF_Classifier_scores.csv
+Algorithm: ADABOOST
+../models/doubt_question/dep_b/Adaboost.model
+<Java object at 0x12a12a38>
+25: Validate Scores Saved =>../results/doubt_question/dep_b/Adaboost_scores.csv
+Algorithm: RANDOM_FOREST
+../models/doubt_question/dep_b/Random_Forest.model
+<Java object at 0x12a12558>
+26: Validate Scores Saved =>../results/doubt_question/dep_b/Random_Forest_scores.csv
+Algorithm: MLP_CLASSIFIER_2
+../models/doubt_question/dep_b/MLP_Classifier_2.model
+<Java object at 0x12a0ad78>
+27: Validate Scores Saved =>../results/doubt_question/dep_b/MLP_Classifier_2_scores.csv
+Algorithm: REP_TREE
+../models/doubt_question/dep_b/REP_Tree.model
+<Java object at 0x14c73e38>
+28: Validate Scores Saved =>../results/doubt_question/dep_b/REP_Tree_scores.csv
+Algorithm: LOGIT_BOOST
+../models/doubt_question/dep_b/Logit_Boost.model
+<Java object at 0x12a12ab8>
+29: Validate Scores Saved =>../results/doubt_question/dep_b/Logit_Boost_scores.csv
+Algorithm: FLDA
+../models/doubt_question/dep_b/FLDA.model
+<Java object at 0x12a125d8>
+30: Validate Scores Saved =>../results/doubt_question/dep_b/FLDA_scores.csv
+
+3 => emphasis : b_emphasis_validate.arff
+../data/arff_files/dep_b/validate/b_emphasis_validate.arff => ../models/emphasis/dep_b/ all algos => ../results/emphasis
+/dep_b/
+
+Algorithm: MLP_CLASSIFIER_10
+../models/emphasis/dep_b/MLP_Classifier_10.model
+<Java object at 0x12a0add8>
+31: Validate Scores Saved =>../results/emphasis/dep_b/MLP_Classifier_10_scores.csv
+Algorithm: BAGGING
+../models/emphasis/dep_b/Bagging.model
+<Java object at 0x12a124f8>
+32: Validate Scores Saved =>../results/emphasis/dep_b/Bagging_scores.csv
+Algorithm: BAYES_NETWORK
+../models/emphasis/dep_b/Bayes_Network.model
+<Java object at 0x12a12500>
+33: Validate Scores Saved =>../results/emphasis/dep_b/Bayes_Network_scores.csv
+Algorithm: RBF_CLASSIFIER
+../models/emphasis/dep_b/RBF_Classifier.model
+<Java object at 0x12a12520>
+34: Validate Scores Saved =>../results/emphasis/dep_b/RBF_Classifier_scores.csv
+Algorithm: ADABOOST
+../models/emphasis/dep_b/Adaboost.model
+<Java object at 0x12a12530>
+35: Validate Scores Saved =>../results/emphasis/dep_b/Adaboost_scores.csv
+Algorithm: RANDOM_FOREST
+../models/emphasis/dep_b/Random_Forest.model
+<Java object at 0x12a12518>
+36: Validate Scores Saved =>../results/emphasis/dep_b/Random_Forest_scores.csv
+Algorithm: MLP_CLASSIFIER_2
+../models/emphasis/dep_b/MLP_Classifier_2.model
+<Java object at 0x12a12538>
+37: Validate Scores Saved =>../results/emphasis/dep_b/MLP_Classifier_2_scores.csv
+Algorithm: REP_TREE
+../models/emphasis/dep_b/REP_Tree.model
+<Java object at 0x12a12548>
+38: Validate Scores Saved =>../results/emphasis/dep_b/REP_Tree_scores.csv
+Algorithm: LOGIT_BOOST
+../models/emphasis/dep_b/Logit_Boost.model
+<Java object at 0x12a12558>
+39: Validate Scores Saved =>../results/emphasis/dep_b/Logit_Boost_scores.csv
+Algorithm: FLDA
+../models/emphasis/dep_b/FLDA.model
+<Java object at 0x12a12570>
+40: Validate Scores Saved =>../results/emphasis/dep_b/FLDA_scores.csv
+
+4 => negative : b_negative_validate.arff
+../data/arff_files/dep_b/validate/b_negative_validate.arff => ../models/negative/dep_b/ all algos => ../results/negative
+/dep_b/
+
+Algorithm: MLP_CLASSIFIER_10
+../models/negative/dep_b/MLP_Classifier_10.model
+<Java object at 0x12a12550>
+41: Validate Scores Saved =>../results/negative/dep_b/MLP_Classifier_10_scores.csv
+Algorithm: BAGGING
+../models/negative/dep_b/Bagging.model
+<Java object at 0x12a125b8>
+42: Validate Scores Saved =>../results/negative/dep_b/Bagging_scores.csv
+Algorithm: BAYES_NETWORK
+../models/negative/dep_b/Bayes_Network.model
+<Java object at 0x12a12a18>
+43: Validate Scores Saved =>../results/negative/dep_b/Bayes_Network_scores.csv
+Algorithm: RBF_CLASSIFIER
+../models/negative/dep_b/RBF_Classifier.model
+<Java object at 0x12a12a50>
+44: Validate Scores Saved =>../results/negative/dep_b/RBF_Classifier_scores.csv
+Algorithm: ADABOOST
+../models/negative/dep_b/Adaboost.model
+<Java object at 0x12a12a98>
+45: Validate Scores Saved =>../results/negative/dep_b/Adaboost_scores.csv
+Algorithm: RANDOM_FOREST
+../models/negative/dep_b/Random_Forest.model
+<Java object at 0x14c73d98>
+46: Validate Scores Saved =>../results/negative/dep_b/Random_Forest_scores.csv
+Algorithm: MLP_CLASSIFIER_2
+../models/negative/dep_b/MLP_Classifier_2.model
+<Java object at 0x14c73df8>
+47: Validate Scores Saved =>../results/negative/dep_b/MLP_Classifier_2_scores.csv
+Algorithm: REP_TREE
+../models/negative/dep_b/REP_Tree.model
+<Java object at 0x14c73e58>
+48: Validate Scores Saved =>../results/negative/dep_b/REP_Tree_scores.csv
+Algorithm: LOGIT_BOOST
+../models/negative/dep_b/Logit_Boost.model
+<Java object at 0x12a0ad08>
+49: Validate Scores Saved =>../results/negative/dep_b/Logit_Boost_scores.csv
+Algorithm: FLDA
+../models/negative/dep_b/FLDA.model
+<Java object at 0x12a0ad90>
+50: Validate Scores Saved =>../results/negative/dep_b/FLDA_scores.csv
+
+5 => relative : b_relative_validate.arff
+../data/arff_files/dep_b/validate/b_relative_validate.arff => ../models/relative/dep_b/ all algos => ../results/relative
+/dep_b/
+
+Algorithm: MLP_CLASSIFIER_10
+../models/relative/dep_b/MLP_Classifier_10.model
+<Java object at 0x12a0adb8>
+51: Validate Scores Saved =>../results/relative/dep_b/MLP_Classifier_10_scores.csv
+Algorithm: BAGGING
+../models/relative/dep_b/Bagging.model
+<Java object at 0x12a12a90>
+52: Validate Scores Saved =>../results/relative/dep_b/Bagging_scores.csv
+Algorithm: BAYES_NETWORK
+../models/relative/dep_b/Bayes_Network.model
+<Java object at 0x12a0ad58>
+53: Validate Scores Saved =>../results/relative/dep_b/Bayes_Network_scores.csv
+Algorithm: RBF_CLASSIFIER
+../models/relative/dep_b/RBF_Classifier.model
+<Java object at 0x12a12a38>
+54: Validate Scores Saved =>../results/relative/dep_b/RBF_Classifier_scores.csv
+Algorithm: ADABOOST
+../models/relative/dep_b/Adaboost.model
+<Java object at 0x12a11e60>
+55: Validate Scores Saved =>../results/relative/dep_b/Adaboost_scores.csv
+Algorithm: RANDOM_FOREST
+../models/relative/dep_b/Random_Forest.model
+<Java object at 0x12a129f0>
+56: Validate Scores Saved =>../results/relative/dep_b/Random_Forest_scores.csv
+Algorithm: MLP_CLASSIFIER_2
+../models/relative/dep_b/MLP_Classifier_2.model
+<Java object at 0x14c73e50>
+57: Validate Scores Saved =>../results/relative/dep_b/MLP_Classifier_2_scores.csv
+Algorithm: REP_TREE
+../models/relative/dep_b/REP_Tree.model
+<Java object at 0x12a12590>
+58: Validate Scores Saved =>../results/relative/dep_b/REP_Tree_scores.csv
+Algorithm: LOGIT_BOOST
+../models/relative/dep_b/Logit_Boost.model
+<Java object at 0x14c73df0>
+59: Validate Scores Saved =>../results/relative/dep_b/Logit_Boost_scores.csv
+Algorithm: FLDA
+../models/relative/dep_b/FLDA.model
+<Java object at 0x12a12520>
+60: Validate Scores Saved =>../results/relative/dep_b/FLDA_scores.csv
+
+6 => topics : b_topics_validate.arff
+../data/arff_files/dep_b/validate/b_topics_validate.arff => ../models/topics/dep_b/ all algos => ../results/topics/dep_b
+/
+
+Algorithm: MLP_CLASSIFIER_10
+../models/topics/dep_b/MLP_Classifier_10.model
+<Java object at 0x12a12aa0>
+61: Validate Scores Saved =>../results/topics/dep_b/MLP_Classifier_10_scores.csv
+Algorithm: BAGGING
+../models/topics/dep_b/Bagging.model
+<Java object at 0x14c73da0>
+62: Validate Scores Saved =>../results/topics/dep_b/Bagging_scores.csv
+Algorithm: BAYES_NETWORK
+../models/topics/dep_b/Bayes_Network.model
+<Java object at 0x14c73e08>
+63: Validate Scores Saved =>../results/topics/dep_b/Bayes_Network_scores.csv
+Algorithm: RBF_CLASSIFIER
+../models/topics/dep_b/RBF_Classifier.model
+<Java object at 0x14c73e70>
+64: Validate Scores Saved =>../results/topics/dep_b/RBF_Classifier_scores.csv
+Algorithm: ADABOOST
+../models/topics/dep_b/Adaboost.model
+<Java object at 0x12a0ad40>
+65: Validate Scores Saved =>../results/topics/dep_b/Adaboost_scores.csv
+Algorithm: RANDOM_FOREST
+../models/topics/dep_b/Random_Forest.model
+<Java object at 0x12a0adc0>
+66: Validate Scores Saved =>../results/topics/dep_b/Random_Forest_scores.csv
+Algorithm: MLP_CLASSIFIER_2
+../models/topics/dep_b/MLP_Classifier_2.model
+<Java object at 0x12a12528>
+67: Validate Scores Saved =>../results/topics/dep_b/MLP_Classifier_2_scores.csv
+Algorithm: REP_TREE
+../models/topics/dep_b/REP_Tree.model
+<Java object at 0x12a12590>
+68: Validate Scores Saved =>../results/topics/dep_b/REP_Tree_scores.csv
+Algorithm: LOGIT_BOOST
+../models/topics/dep_b/Logit_Boost.model
+<Java object at 0x12a129f8>
+69: Validate Scores Saved =>../results/topics/dep_b/Logit_Boost_scores.csv
+Algorithm: FLDA
+../models/topics/dep_b/FLDA.model
+<Java object at 0x12a12a60>
+70: Validate Scores Saved =>../results/topics/dep_b/FLDA_scores.csv
+
+7 => wh_question : b_wh_question_validate.arff
+../data/arff_files/dep_b/validate/b_wh_question_validate.arff => ../models/wh_question/dep_b/ all algos => ../results/wh
+_question/dep_b/
+
+Algorithm: MLP_CLASSIFIER_10
+../models/wh_question/dep_b/MLP_Classifier_10.model
+<Java object at 0x12a12a90>
+71: Validate Scores Saved =>../results/wh_question/dep_b/MLP_Classifier_10_scores.csv
+Algorithm: BAGGING
+../models/wh_question/dep_b/Bagging.model
+<Java object at 0x14c73dd8>
+72: Validate Scores Saved =>../results/wh_question/dep_b/Bagging_scores.csv
+Algorithm: BAYES_NETWORK
+../models/wh_question/dep_b/Bayes_Network.model
+<Java object at 0x14c73e68>
+73: Validate Scores Saved =>../results/wh_question/dep_b/Bayes_Network_scores.csv
+Algorithm: RBF_CLASSIFIER
+../models/wh_question/dep_b/RBF_Classifier.model
+<Java object at 0x12a0ad60>
+74: Validate Scores Saved =>../results/wh_question/dep_b/RBF_Classifier_scores.csv
+Algorithm: ADABOOST
+../models/wh_question/dep_b/Adaboost.model
+<Java object at 0x12a12508>
+75: Validate Scores Saved =>../results/wh_question/dep_b/Adaboost_scores.csv
+Algorithm: RANDOM_FOREST
+../models/wh_question/dep_b/Random_Forest.model
+<Java object at 0x12a125a0>
+76: Validate Scores Saved =>../results/wh_question/dep_b/Random_Forest_scores.csv
+Algorithm: MLP_CLASSIFIER_2
+../models/wh_question/dep_b/MLP_Classifier_2.model
+<Java object at 0x12a12a30>
+77: Validate Scores Saved =>../results/wh_question/dep_b/MLP_Classifier_2_scores.csv
+Algorithm: REP_TREE
+../models/wh_question/dep_b/REP_Tree.model
+<Java object at 0x12a12ad0>
+78: Validate Scores Saved =>../results/wh_question/dep_b/REP_Tree_scores.csv
+Algorithm: LOGIT_BOOST
+../models/wh_question/dep_b/Logit_Boost.model
+<Java object at 0x14c73e10>
+79: Validate Scores Saved =>../results/wh_question/dep_b/Logit_Boost_scores.csv
+Algorithm: FLDA
+../models/wh_question/dep_b/FLDA.model
+<Java object at 0x12a0acf8>
+80: Validate Scores Saved =>../results/wh_question/dep_b/FLDA_scores.csv
+
+8 => yn_question : b_yn_question_validate.arff
+../data/arff_files/dep_b/validate/b_yn_question_validate.arff => ../models/yn_question/dep_b/ all algos => ../results/yn
+_question/dep_b/
+
+Algorithm: MLP_CLASSIFIER_10
+../models/yn_question/dep_b/MLP_Classifier_10.model
+<Java object at 0x12a0ad68>
+81: Validate Scores Saved =>../results/yn_question/dep_b/MLP_Classifier_10_scores.csv
+Algorithm: BAGGING
+../models/yn_question/dep_b/Bagging.model
+<Java object at 0x14c73e50>
+82: Validate Scores Saved =>../results/yn_question/dep_b/Bagging_scores.csv
+Algorithm: BAYES_NETWORK
+../models/yn_question/dep_b/Bayes_Network.model
+<Java object at 0x14c73d98>
+83: Validate Scores Saved =>../results/yn_question/dep_b/Bayes_Network_scores.csv
+Algorithm: RBF_CLASSIFIER
+../models/yn_question/dep_b/RBF_Classifier.model
+<Java object at 0x12a12a50>
+84: Validate Scores Saved =>../results/yn_question/dep_b/RBF_Classifier_scores.csv
+Algorithm: ADABOOST
+../models/yn_question/dep_b/Adaboost.model
+<Java object at 0x12a125a8>
+85: Validate Scores Saved =>../results/yn_question/dep_b/Adaboost_scores.csv
+Algorithm: RANDOM_FOREST
+../models/yn_question/dep_b/Random_Forest.model
+<Java object at 0x12a124f8>
+86: Validate Scores Saved =>../results/yn_question/dep_b/Random_Forest_scores.csv
+Algorithm: MLP_CLASSIFIER_2
+../models/yn_question/dep_b/MLP_Classifier_2.model
+<Java object at 0x12a0ad38>
+87: Validate Scores Saved =>../results/yn_question/dep_b/MLP_Classifier_2_scores.csv
+Algorithm: REP_TREE
+../models/yn_question/dep_b/REP_Tree.model
+<Java object at 0x14c73e20>
+88: Validate Scores Saved =>../results/yn_question/dep_b/REP_Tree_scores.csv
+Algorithm: LOGIT_BOOST
+../models/yn_question/dep_b/Logit_Boost.model
+<Java object at 0x12a12ad0>
+89: Validate Scores Saved =>../results/yn_question/dep_b/Logit_Boost_scores.csv
+Algorithm: FLDA
+../models/yn_question/dep_b/FLDA.model
+<Java object at 0x12a12a28>
+90: Validate Scores Saved =>../results/yn_question/dep_b/FLDA_scores.csv
+
+0 => affirmative : ab_affirmative_validate.arff
+../data/arff_files/indep_ab/validate/ab_affirmative_validate.arff => ../models/affirmative/indep_ab/ all algos => ../res
+ults/affirmative/indep_ab/
+
+Algorithm: MLP_CLASSIFIER_10
+../models/affirmative/indep_ab/MLP_Classifier_10.model
+<Java object at 0x12a12550>
+1: Validate Scores Saved =>../results/affirmative/indep_ab/MLP_Classifier_10_scores.csv
+Algorithm: BAGGING
+../models/affirmative/indep_ab/Bagging.model
+<Java object at 0x14c73e20>
+2: Validate Scores Saved =>../results/affirmative/indep_ab/Bagging_scores.csv
+Algorithm: BAYES_NETWORK
+../models/affirmative/indep_ab/Bayes_Network.model
+<Java object at 0x12a125c8>
+3: Validate Scores Saved =>../results/affirmative/indep_ab/Bayes_Network_scores.csv
+Algorithm: RBF_CLASSIFIER
+../models/affirmative/indep_ab/RBF_Classifier.model
+<Java object at 0x12a11e58>
+4: Validate Scores Saved =>../results/affirmative/indep_ab/RBF_Classifier_scores.csv
+Algorithm: ADABOOST
+../models/affirmative/indep_ab/Adaboost.model
+<Java object at 0x12a12a40>
+5: Validate Scores Saved =>../results/affirmative/indep_ab/Adaboost_scores.csv
+Algorithm: RANDOM_FOREST
+../models/affirmative/indep_ab/Random_Forest.model
+<Java object at 0x12a0ad78>
+6: Validate Scores Saved =>../results/affirmative/indep_ab/Random_Forest_scores.csv
+Algorithm: MLP_CLASSIFIER_2
+../models/affirmative/indep_ab/MLP_Classifier_2.model
+<Java object at 0x12a12ac0>
+7: Validate Scores Saved =>../results/affirmative/indep_ab/MLP_Classifier_2_scores.csv
+Algorithm: REP_TREE
+../models/affirmative/indep_ab/REP_Tree.model
+<Java object at 0x12a12500>
+8: Validate Scores Saved =>../results/affirmative/indep_ab/REP_Tree_scores.csv
+Algorithm: LOGIT_BOOST
+../models/affirmative/indep_ab/Logit_Boost.model
+<Java object at 0x14c73de0>
+9: Validate Scores Saved =>../results/affirmative/indep_ab/Logit_Boost_scores.csv
+Algorithm: FLDA
+../models/affirmative/indep_ab/FLDA.model
+<Java object at 0x12a12590>
+10: Validate Scores Saved =>../results/affirmative/indep_ab/FLDA_scores.csv
+
+1 => conditional : ab_conditional_validate.arff
+../data/arff_files/indep_ab/validate/ab_conditional_validate.arff => ../models/conditional/indep_ab/ all algos => ../res
+ults/conditional/indep_ab/
+
+Algorithm: MLP_CLASSIFIER_10
+../models/conditional/indep_ab/MLP_Classifier_10.model
+<Java object at 0x14c73e38>
+11: Validate Scores Saved =>../results/conditional/indep_ab/MLP_Classifier_10_scores.csv
+Algorithm: BAGGING
+../models/conditional/indep_ab/Bagging.model
+<Java object at 0x14c73d98>
+12: Validate Scores Saved =>../results/conditional/indep_ab/Bagging_scores.csv
+Algorithm: BAYES_NETWORK
+../models/conditional/indep_ab/Bayes_Network.model
+<Java object at 0x12a12a68>
+13: Validate Scores Saved =>../results/conditional/indep_ab/Bayes_Network_scores.csv
+Algorithm: RBF_CLASSIFIER
+../models/conditional/indep_ab/RBF_Classifier.model
+<Java object at 0x12a125d8>
+14: Validate Scores Saved =>../results/conditional/indep_ab/RBF_Classifier_scores.csv
+Algorithm: ADABOOST
+../models/conditional/indep_ab/Adaboost.model
+<Java object at 0x12a12538>
+15: Validate Scores Saved =>../results/conditional/indep_ab/Adaboost_scores.csv
+Algorithm: RANDOM_FOREST
+../models/conditional/indep_ab/Random_Forest.model
+<Java object at 0x12a0ada8>
+16: Validate Scores Saved =>../results/conditional/indep_ab/Random_Forest_scores.csv
+Algorithm: MLP_CLASSIFIER_2
+../models/conditional/indep_ab/MLP_Classifier_2.model
+<Java object at 0x12a0ad00>
+17: Validate Scores Saved =>../results/conditional/indep_ab/MLP_Classifier_2_scores.csv
+Algorithm: REP_TREE
+../models/conditional/indep_ab/REP_Tree.model
+<Java object at 0x14c73e10>
+18: Validate Scores Saved =>../results/conditional/indep_ab/REP_Tree_scores.csv
+Algorithm: LOGIT_BOOST
+../models/conditional/indep_ab/Logit_Boost.model
+<Java object at 0x12a12ae0>
+19: Validate Scores Saved =>../results/conditional/indep_ab/Logit_Boost_scores.csv
+Algorithm: FLDA
+../models/conditional/indep_ab/FLDA.model
+<Java object at 0x12a12a58>
+20: Validate Scores Saved =>../results/conditional/indep_ab/FLDA_scores.csv
+
+2 => doubt_question : ab_doubt_question_validate.arff
+../data/arff_files/indep_ab/validate/ab_doubt_question_validate.arff => ../models/doubt_question/indep_ab/ all algos =>
+../results/doubt_question/indep_ab/
+
+Algorithm: MLP_CLASSIFIER_10
+../models/doubt_question/indep_ab/MLP_Classifier_10.model
+<Java object at 0x12a12598>
+21: Validate Scores Saved =>../results/doubt_question/indep_ab/MLP_Classifier_10_scores.csv
+Algorithm: BAGGING
+../models/doubt_question/indep_ab/Bagging.model
+<Java object at 0x12a12a00>
+22: Validate Scores Saved =>../results/doubt_question/indep_ab/Bagging_scores.csv
+Algorithm: BAYES_NETWORK
+../models/doubt_question/indep_ab/Bayes_Network.model
+<Java object at 0x12a12a58>
+23: Validate Scores Saved =>../results/doubt_question/indep_ab/Bayes_Network_scores.csv
+Algorithm: RBF_CLASSIFIER
+../models/doubt_question/indep_ab/RBF_Classifier.model
+<Java object at 0x12a12ab0>
+24: Validate Scores Saved =>../results/doubt_question/indep_ab/RBF_Classifier_scores.csv
+Algorithm: ADABOOST
+../models/doubt_question/indep_ab/Adaboost.model
+<Java object at 0x14c73da0>
+25: Validate Scores Saved =>../results/doubt_question/indep_ab/Adaboost_scores.csv
+Algorithm: RANDOM_FOREST
+../models/doubt_question/indep_ab/Random_Forest.model
+<Java object at 0x14c73df8>
+26: Validate Scores Saved =>../results/doubt_question/indep_ab/Random_Forest_scores.csv
+Algorithm: MLP_CLASSIFIER_2
+../models/doubt_question/indep_ab/MLP_Classifier_2.model
+<Java object at 0x14c73e50>
+27: Validate Scores Saved =>../results/doubt_question/indep_ab/MLP_Classifier_2_scores.csv
+Algorithm: REP_TREE
+../models/doubt_question/indep_ab/REP_Tree.model
+<Java object at 0x12a0acf8>
+28: Validate Scores Saved =>../results/doubt_question/indep_ab/REP_Tree_scores.csv
+Algorithm: LOGIT_BOOST
+../models/doubt_question/indep_ab/Logit_Boost.model
+<Java object at 0x12a0ad68>
+29: Validate Scores Saved =>../results/doubt_question/indep_ab/Logit_Boost_scores.csv
+Algorithm: FLDA
+../models/doubt_question/indep_ab/FLDA.model
+<Java object at 0x12a0adc8>
+30: Validate Scores Saved =>../results/doubt_question/indep_ab/FLDA_scores.csv
+
+3 => emphasis : ab_emphasis_validate.arff
+../data/arff_files/indep_ab/validate/ab_emphasis_validate.arff => ../models/emphasis/indep_ab/ all algos => ../results/e
+mphasis/indep_ab/
+
+Algorithm: MLP_CLASSIFIER_10
+../models/emphasis/indep_ab/MLP_Classifier_10.model
+<Java object at 0x12a124f0>
+31: Validate Scores Saved =>../results/emphasis/indep_ab/MLP_Classifier_10_scores.csv
+Algorithm: BAGGING
+../models/emphasis/indep_ab/Bagging.model
+<Java object at 0x14c73df0>
+32: Validate Scores Saved =>../results/emphasis/indep_ab/Bagging_scores.csv
+Algorithm: BAYES_NETWORK
+../models/emphasis/indep_ab/Bayes_Network.model
+<Java object at 0x12a125c8>
+33: Validate Scores Saved =>../results/emphasis/indep_ab/Bayes_Network_scores.csv
+Algorithm: RBF_CLASSIFIER
+../models/emphasis/indep_ab/RBF_Classifier.model
+<Java object at 0x12a0ad30>
+34: Validate Scores Saved =>../results/emphasis/indep_ab/RBF_Classifier_scores.csv
+Algorithm: ADABOOST
+../models/emphasis/indep_ab/Adaboost.model
+<Java object at 0x12a12aa0>
+35: Validate Scores Saved =>../results/emphasis/indep_ab/Adaboost_scores.csv
+Algorithm: RANDOM_FOREST
+../models/emphasis/indep_ab/Random_Forest.model
+<Java object at 0x12a12508>
+36: Validate Scores Saved =>../results/emphasis/indep_ab/Random_Forest_scores.csv
+Algorithm: MLP_CLASSIFIER_2
+../models/emphasis/indep_ab/MLP_Classifier_2.model
+<Java object at 0x14c73e18>
+37: Validate Scores Saved =>../results/emphasis/indep_ab/MLP_Classifier_2_scores.csv
+Algorithm: REP_TREE
+../models/emphasis/indep_ab/REP_Tree.model
+<Java object at 0x12a129f0>
+38: Validate Scores Saved =>../results/emphasis/indep_ab/REP_Tree_scores.csv
+Algorithm: LOGIT_BOOST
+../models/emphasis/indep_ab/Logit_Boost.model
+<Java object at 0x12a0ad58>
+39: Validate Scores Saved =>../results/emphasis/indep_ab/Logit_Boost_scores.csv
+Algorithm: FLDA
+../models/emphasis/indep_ab/FLDA.model
+<Java object at 0x12a12ad0>
+40: Validate Scores Saved =>../results/emphasis/indep_ab/FLDA_scores.csv
+
+4 => negative : ab_negative_validate.arff
+../data/arff_files/indep_ab/validate/ab_negative_validate.arff => ../models/negative/indep_ab/ all algos => ../results/n
+egative/indep_ab/
+
+Algorithm: MLP_CLASSIFIER_10
+../models/negative/indep_ab/MLP_Classifier_10.model
+<Java object at 0x12a12508>
+41: Validate Scores Saved =>../results/negative/indep_ab/MLP_Classifier_10_scores.csv
+Algorithm: BAGGING
+../models/negative/indep_ab/Bagging.model
+<Java object at 0x12a0adc0>
+42: Validate Scores Saved =>../results/negative/indep_ab/Bagging_scores.csv
+Algorithm: BAYES_NETWORK
+../models/negative/indep_ab/Bayes_Network.model
+<Java object at 0x12a0ad70>
+43: Validate Scores Saved =>../results/negative/indep_ab/Bayes_Network_scores.csv
+Algorithm: RBF_CLASSIFIER
+../models/negative/indep_ab/RBF_Classifier.model
+<Java object at 0x12a0ad08>
+44: Validate Scores Saved =>../results/negative/indep_ab/RBF_Classifier_scores.csv
+Algorithm: ADABOOST
+../models/negative/indep_ab/Adaboost.model
+<Java object at 0x14c73e78>
+45: Validate Scores Saved =>../results/negative/indep_ab/Adaboost_scores.csv
+Algorithm: RANDOM_FOREST
+../models/negative/indep_ab/Random_Forest.model
+<Java object at 0x14c73e30>
+46: Validate Scores Saved =>../results/negative/indep_ab/Random_Forest_scores.csv
+Algorithm: MLP_CLASSIFIER_2
+../models/negative/indep_ab/MLP_Classifier_2.model
+<Java object at 0x14c73df0>
+47: Validate Scores Saved =>../results/negative/indep_ab/MLP_Classifier_2_scores.csv
+Algorithm: REP_TREE
+../models/negative/indep_ab/REP_Tree.model
+<Java object at 0x14c73db0>
+48: Validate Scores Saved =>../results/negative/indep_ab/REP_Tree_scores.csv
+Algorithm: LOGIT_BOOST
+../models/negative/indep_ab/Logit_Boost.model
+<Java object at 0x12a12ad0>
+49: Validate Scores Saved =>../results/negative/indep_ab/Logit_Boost_scores.csv
+Algorithm: FLDA
+../models/negative/indep_ab/FLDA.model
+<Java object at 0x12a12a90>
+50: Validate Scores Saved =>../results/negative/indep_ab/FLDA_scores.csv
+
+5 => relative : ab_relative_validate.arff
+../data/arff_files/indep_ab/validate/ab_relative_validate.arff => ../models/relative/indep_ab/ all algos => ../results/r
+elative/indep_ab/
+
+Algorithm: MLP_CLASSIFIER_10
+../models/relative/indep_ab/MLP_Classifier_10.model
+<Java object at 0x12a129f8>
+51: Validate Scores Saved =>../results/relative/indep_ab/MLP_Classifier_10_scores.csv
+Algorithm: BAGGING
+../models/relative/indep_ab/Bagging.model
+<Java object at 0x14c73e78>
+52: Validate Scores Saved =>../results/relative/indep_ab/Bagging_scores.csv
+Algorithm: BAYES_NETWORK
+../models/relative/indep_ab/Bayes_Network.model
+<Java object at 0x12a125c0>
+53: Validate Scores Saved =>../results/relative/indep_ab/Bayes_Network_scores.csv
+Algorithm: RBF_CLASSIFIER
+../models/relative/indep_ab/RBF_Classifier.model
+<Java object at 0x14c73e48>
+54: Validate Scores Saved =>../results/relative/indep_ab/RBF_Classifier_scores.csv
+Algorithm: ADABOOST
+../models/relative/indep_ab/Adaboost.model
+<Java object at 0x12a12588>
+55: Validate Scores Saved =>../results/relative/indep_ab/Adaboost_scores.csv
+Algorithm: RANDOM_FOREST
+../models/relative/indep_ab/Random_Forest.model
+<Java object at 0x14c73e18>
+56: Validate Scores Saved =>../results/relative/indep_ab/Random_Forest_scores.csv
+Algorithm: MLP_CLASSIFIER_2
+../models/relative/indep_ab/MLP_Classifier_2.model
+<Java object at 0x12a12560>
+57: Validate Scores Saved =>../results/relative/indep_ab/MLP_Classifier_2_scores.csv
+Algorithm: REP_TREE
+../models/relative/indep_ab/REP_Tree.model
+<Java object at 0x14c73df0>
+58: Validate Scores Saved =>../results/relative/indep_ab/REP_Tree_scores.csv
+Algorithm: LOGIT_BOOST
+../models/relative/indep_ab/Logit_Boost.model
+<Java object at 0x12a12538>
+59: Validate Scores Saved =>../results/relative/indep_ab/Logit_Boost_scores.csv
+Algorithm: FLDA
+../models/relative/indep_ab/FLDA.model
+<Java object at 0x14c73dc0>
+60: Validate Scores Saved =>../results/relative/indep_ab/FLDA_scores.csv
+
+6 => topics : ab_topics_validate.arff
+../data/arff_files/indep_ab/validate/ab_topics_validate.arff => ../models/topics/indep_ab/ all algos => ../results/topic
+s/indep_ab/
+
+Algorithm: MLP_CLASSIFIER_10
+../models/topics/indep_ab/MLP_Classifier_10.model
+<Java object at 0x12a0add8>
+61: Validate Scores Saved =>../results/topics/indep_ab/MLP_Classifier_10_scores.csv
+Algorithm: BAGGING
+../models/topics/indep_ab/Bagging.model
+<Java object at 0x12a12ab8>
+62: Validate Scores Saved =>../results/topics/indep_ab/Bagging_scores.csv
+Algorithm: BAYES_NETWORK
+../models/topics/indep_ab/Bayes_Network.model
+<Java object at 0x12a0ad98>
+63: Validate Scores Saved =>../results/topics/indep_ab/Bayes_Network_scores.csv
+Algorithm: RBF_CLASSIFIER
+../models/topics/indep_ab/RBF_Classifier.model
+<Java object at 0x12a12a78>
+64: Validate Scores Saved =>../results/topics/indep_ab/RBF_Classifier_scores.csv
+Algorithm: ADABOOST
+../models/topics/indep_ab/Adaboost.model
+<Java object at 0x12a0ad50>
+65: Validate Scores Saved =>../results/topics/indep_ab/Adaboost_scores.csv
+Algorithm: RANDOM_FOREST
+../models/topics/indep_ab/Random_Forest.model
+<Java object at 0x12a12a38>
+66: Validate Scores Saved =>../results/topics/indep_ab/Random_Forest_scores.csv
+Algorithm: MLP_CLASSIFIER_2
+../models/topics/indep_ab/MLP_Classifier_2.model
+<Java object at 0x12a0acf8>
+67: Validate Scores Saved =>../results/topics/indep_ab/MLP_Classifier_2_scores.csv
+Algorithm: REP_TREE
+../models/topics/indep_ab/REP_Tree.model
+<Java object at 0x12a129f8>
+68: Validate Scores Saved =>../results/topics/indep_ab/REP_Tree_scores.csv
+Algorithm: LOGIT_BOOST
+../models/topics/indep_ab/Logit_Boost.model
+<Java object at 0x14c73e60>
+69: Validate Scores Saved =>../results/topics/indep_ab/Logit_Boost_scores.csv
+Algorithm: FLDA
+../models/topics/indep_ab/FLDA.model
+<Java object at 0x12a125b0>
+70: Validate Scores Saved =>../results/topics/indep_ab/FLDA_scores.csv
+
+7 => wh_question : ab_wh_question_validate.arff
+../data/arff_files/indep_ab/validate/ab_wh_question_validate.arff => ../models/wh_question/indep_ab/ all algos => ../res
+ults/wh_question/indep_ab/
+
+Algorithm: MLP_CLASSIFIER_10
+../models/wh_question/indep_ab/MLP_Classifier_10.model
+<Java object at 0x14c73df0>
+71: Validate Scores Saved =>../results/wh_question/indep_ab/MLP_Classifier_10_scores.csv
+Algorithm: BAGGING
+../models/wh_question/indep_ab/Bagging.model
+<Java object at 0x12a12a00>
+72: Validate Scores Saved =>../results/wh_question/indep_ab/Bagging_scores.csv
+Algorithm: BAYES_NETWORK
+../models/wh_question/indep_ab/Bayes_Network.model
+<Java object at 0x12a0adc8>
+73: Validate Scores Saved =>../results/wh_question/indep_ab/Bayes_Network_scores.csv
+Algorithm: RBF_CLASSIFIER
+../models/wh_question/indep_ab/RBF_Classifier.model
+<Java object at 0x14c73e18>
+74: Validate Scores Saved =>../results/wh_question/indep_ab/RBF_Classifier_scores.csv
+Algorithm: ADABOOST
+../models/wh_question/indep_ab/Adaboost.model
+<Java object at 0x12a12a38>
+75: Validate Scores Saved =>../results/wh_question/indep_ab/Adaboost_scores.csv
+Algorithm: RANDOM_FOREST
+../models/wh_question/indep_ab/Random_Forest.model
+<Java object at 0x12a12500>
+76: Validate Scores Saved =>../results/wh_question/indep_ab/Random_Forest_scores.csv
+Algorithm: MLP_CLASSIFIER_2
+../models/wh_question/indep_ab/MLP_Classifier_2.model
+<Java object at 0x14c73e58>
+77: Validate Scores Saved =>../results/wh_question/indep_ab/MLP_Classifier_2_scores.csv
+Algorithm: REP_TREE
+../models/wh_question/indep_ab/REP_Tree.model
+<Java object at 0x12a12a68>
+78: Validate Scores Saved =>../results/wh_question/indep_ab/REP_Tree_scores.csv
+Algorithm: LOGIT_BOOST
+../models/wh_question/indep_ab/Logit_Boost.model
+<Java object at 0x12a12538>
+79: Validate Scores Saved =>../results/wh_question/indep_ab/Logit_Boost_scores.csv
+Algorithm: FLDA
+../models/wh_question/indep_ab/FLDA.model
+<Java object at 0x12a11e58>
+80: Validate Scores Saved =>../results/wh_question/indep_ab/FLDA_scores.csv
+
+8 => yn_question : ab_yn_question_validate.arff
+../data/arff_files/indep_ab/validate/ab_yn_question_validate.arff => ../models/yn_question/indep_ab/ all algos => ../res
+ults/yn_question/indep_ab/
+
+Algorithm: MLP_CLASSIFIER_10
+../models/yn_question/indep_ab/MLP_Classifier_10.model
+<Java object at 0x12a12a70>
+81: Validate Scores Saved =>../results/yn_question/indep_ab/MLP_Classifier_10_scores.csv
+Algorithm: BAGGING
+../models/yn_question/indep_ab/Bagging.model
+<Java object at 0x12a0ad58>
+82: Validate Scores Saved =>../results/yn_question/indep_ab/Bagging_scores.csv
+Algorithm: BAYES_NETWORK
+../models/yn_question/indep_ab/Bayes_Network.model
+<Java object at 0x12a12a38>
+83: Validate Scores Saved =>../results/yn_question/indep_ab/Bayes_Network_scores.csv
+Algorithm: RBF_CLASSIFIER
+../models/yn_question/indep_ab/RBF_Classifier.model
+<Java object at 0x12a0ad08>
+84: Validate Scores Saved =>../results/yn_question/indep_ab/RBF_Classifier_scores.csv
+Algorithm: ADABOOST
+../models/yn_question/indep_ab/Adaboost.model
+<Java object at 0x12a12a08>
+85: Validate Scores Saved =>../results/yn_question/indep_ab/Adaboost_scores.csv
+Algorithm: RANDOM_FOREST
+../models/yn_question/indep_ab/Random_Forest.model
+<Java object at 0x12a11e58>
+86: Validate Scores Saved =>../results/yn_question/indep_ab/Random_Forest_scores.csv
+Algorithm: MLP_CLASSIFIER_2
+../models/yn_question/indep_ab/MLP_Classifier_2.model
+<Java object at 0x12a125e0>
+87: Validate Scores Saved =>../results/yn_question/indep_ab/MLP_Classifier_2_scores.csv
+Algorithm: REP_TREE
+../models/yn_question/indep_ab/REP_Tree.model
+<Java object at 0x14c73e60>
+88: Validate Scores Saved =>../results/yn_question/indep_ab/REP_Tree_scores.csv
+Algorithm: LOGIT_BOOST
+../models/yn_question/indep_ab/Logit_Boost.model
+<Java object at 0x12a125a8>
+89: Validate Scores Saved =>../results/yn_question/indep_ab/Logit_Boost_scores.csv
+Algorithm: FLDA
+../models/yn_question/indep_ab/FLDA.model
+<Java object at 0x14c73e38>
+90: Validate Scores Saved =>../results/yn_question/indep_ab/FLDA_scores.csv
+PS C:\Users\Bhuvan\projects\HCI\code>
